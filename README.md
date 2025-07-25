@@ -17,8 +17,8 @@ quizzler-app-start/
 ├── question_model.py    # Question data model
 ├── quiz_brain.py        # Quiz logic and game mechanics
 ├── ui.py               # GUI implementation
+├── README.md            # Project documentation
+├── requirements.txt     # Python dependencies
 └── images/
 ├── true.png        # True button image
-├── false.png       # False button image
-├── logo.png        # App logo image
-└── background.png  # Background image
+└── false.png       # False button image
