@@ -12,13 +12,14 @@ A modern Python-based quiz application with a graphical user interface that fetc
 
 ## Project Structure
 
-quizzler-app-start/
-├── main.py              # Entry point and API integration
-├── question_model.py    # Question data model
-├── quiz_brain.py        # Quiz logic and game mechanics
-├── ui.py               # GUI implementation
-├── README.md            # Project documentation
-├── requirements.txt     # Python dependencies
-└── images/
-├── true.png        # True button image
-└── false.png       # False button image
+| File                | Description                                |
+| ------------------- | ------------------------------------------ |
+| `main.py`           | Entry point and API integration            |
+| `question_model.py` | Defines the `Question` data model          |
+| `quiz_brain.py`     | Manages quiz logic and game mechanics      |
+| `ui.py`             | Implements the GUI using Tkinter           |
+| `README.md`         | Project documentation (this file)          |
+| `requirements.txt`  | Lists Python dependencies for the project  |
+| `images/`           | Directory for image assets                 |
+| `  ├── true.png`    | Image for the 'True' button                |
+| `  └── false.png`   | Image for the 'False' button               |
